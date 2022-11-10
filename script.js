@@ -347,7 +347,7 @@ window.addEventListener('load', function(){
             this.WinningScore = 50; // 8vo Cambio se aumento para que el jugador pueda tener mas puntos en el score y por ende más tiempo para estar jugando.
             this.gameTime = 0;
             this.timeLimit = 40000; // 9no Cambio se aumento el tiempo limite.
-            this.speed = 1;
+            this.speed = 4; // 10mo Cambio se aumento la velocidad de desplazamiento de los layers.
             this.debug = false;
         }
         //Función Update
